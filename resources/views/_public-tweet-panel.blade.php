@@ -4,7 +4,7 @@
         <textarea name="body" id="" class="w-full" placeholder="Type here!" ></textarea>
         <hr class="my-4">
         <footer class="flex justify-between">
-        <img src="{{auth()->user()->avatar}}" class="rounded-full mr-2" alt="">
+        <img src="{{auth()->user()->avatar}}" width="50" height="50" class="rounded-full mr-2" alt="">
         <button 
             type="submit"
             class="bg-blue-500 rounded-lg shadow py-2 px-2 text-white"
